@@ -1,0 +1,8 @@
+
+
+const getallen = [1, 2, 3, 4, 5];
+
+const verdubbeld = getallen.map(x => x * 2);
+
+console.log('Origineel:', getallen);
+console.log('Verdubbeld met map:', verdubbeld);
