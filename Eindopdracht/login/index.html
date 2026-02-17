@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
+    <form onsubmit="login(event)">
         <label for="Username">Username:</label><br>
   <input type="text" id="username" name="username" value="">
   <br>
@@ -15,9 +16,10 @@
   <input type="password" id="password" name="password" value="">
   <br>
   <br>
-  <input type="login" value="Login">
+  <input type="submit" value="Login">
   <br>
-  <input class="register" type="button" value="Register">
+  <input class="register" type="button" value="Register" onclick="register()">
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
